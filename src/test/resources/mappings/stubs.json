@@ -1,0 +1,43 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "urlPathTemplate": "/user/get/{id}"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "http-response1.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/course/get/all"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "http-response2.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/user/get/all"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "http-response3.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}

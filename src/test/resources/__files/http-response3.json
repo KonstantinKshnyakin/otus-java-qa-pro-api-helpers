@@ -1,0 +1,20 @@
+[
+  {
+    "name":"Test1",
+    "cource":"QA1",
+    "email":"test1@test.test",
+    "age": 1
+  },
+  {
+    "name":"Test2",
+    "cource":"QA2",
+    "email":"test2@test.test",
+    "age": 2
+  }
+  {
+    "name":"Test3",
+    "cource":"QA3",
+    "email":"test3@test.test",
+    "age": 3
+  }
+]

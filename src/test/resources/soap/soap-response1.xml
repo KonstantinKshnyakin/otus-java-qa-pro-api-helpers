@@ -1,0 +1,3 @@
+<m:NumberToDollarsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/">
+    <m:NumberToDollarsResult>fifteen dollars</m:NumberToDollarsResult>
+</m:NumberToDollarsResponse>
