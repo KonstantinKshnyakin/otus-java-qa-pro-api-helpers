@@ -1,4 +1,6 @@
-package ru.otus.java.qa.pro.api.helpers;
+package ru.otus.api.helpers;
+
+import static org.citrusframework.http.actions.HttpActionBuilder.http;
 
 import com.github.tomakehurst.wiremock.junit5.WireMockTest;
 import org.citrusframework.TestActionRunner;
@@ -12,9 +14,7 @@ import org.citrusframework.spi.Resources;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;
 import org.springframework.test.context.ContextConfiguration;
-import ru.otus.java.qa.pro.api.helpers.config.CitrusConfig;
-
-import static org.citrusframework.http.actions.HttpActionBuilder.http;
+import ru.otus.api.helpers.config.CitrusConfig;
 
 @WireMockTest(httpPort = 8080)
 @CitrusSpringSupport

@@ -1,4 +1,6 @@
-package ru.otus.java.qa.pro.api.helpers;
+package ru.otus.api.helpers;
+
+import static org.citrusframework.actions.ExecuteSQLQueryAction.Builder.query;
 
 import org.citrusframework.TestActionRunner;
 import org.citrusframework.annotations.CitrusResource;
@@ -8,11 +10,8 @@ import org.citrusframework.junit.jupiter.spring.CitrusSpringSupport;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
-import ru.otus.java.qa.pro.api.helpers.config.CitrusConfig;
-
+import ru.otus.api.helpers.config.CitrusConfig;
 import javax.sql.DataSource;
-
-import static org.citrusframework.actions.ExecuteSQLQueryAction.Builder.query;
 
 @CitrusSpringSupport
 @ContextConfiguration(classes = {CitrusSpringConfig.class, CitrusConfig.class})

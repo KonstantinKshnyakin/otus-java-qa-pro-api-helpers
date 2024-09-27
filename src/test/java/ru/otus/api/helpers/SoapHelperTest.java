@@ -1,4 +1,6 @@
-package ru.otus.java.qa.pro.api.helpers;
+package ru.otus.api.helpers;
+
+import static org.citrusframework.ws.actions.SoapActionBuilder.soap;
 
 import org.citrusframework.TestActionRunner;
 import org.citrusframework.annotations.CitrusEndpoint;
@@ -10,9 +12,7 @@ import org.citrusframework.spi.Resources;
 import org.citrusframework.ws.client.WebServiceClient;
 import org.junit.jupiter.api.Test;
 import org.springframework.test.context.ContextConfiguration;
-import ru.otus.java.qa.pro.api.helpers.config.CitrusConfig;
-
-import static org.citrusframework.ws.actions.SoapActionBuilder.soap;
+import ru.otus.api.helpers.config.CitrusConfig;
 
 @CitrusSpringSupport
 @ContextConfiguration(classes = {CitrusSpringConfig.class, CitrusConfig.class})

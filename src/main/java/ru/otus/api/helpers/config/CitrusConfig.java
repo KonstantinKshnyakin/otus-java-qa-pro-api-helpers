@@ -1,4 +1,4 @@
-package ru.otus.java.qa.pro.api.helpers.config;
+package ru.otus.api.helpers.config;
 
 import org.citrusframework.dsl.endpoint.CitrusEndpoints;
 import org.citrusframework.http.client.HttpClient;
